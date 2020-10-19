@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <RootNamespace>CollectionsUtility</RootNamespace>
+  </PropertyGroup>
+
+  <Import Project="..\CollectionsUtility\CollectionsUtility.projitems" Label="Shared" />
+
+  <Import Project="..\CollectionsUtility.Abstract\CollectionsUtility.Abstract.projitems" Label="Shared" />
+
+</Project>

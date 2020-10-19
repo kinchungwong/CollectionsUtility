@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
+    <HasSharedItems>true</HasSharedItems>
+    <SharedGUID>20a532d7-469c-4a41-b0e7-6dbb182d9b7e</SharedGUID>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration">
+    <Import_RootNamespace>CollectionsUtility</Import_RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="$(MSBuildThisFileDirectory)Mocks\SortedIntListIntersect.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Mocks\SortedIntListUnion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Specialized\Histogram.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Specialized\HistogramFactory.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Specialized\HistogramMethods.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Specialized\Internals\HistArith_Float64.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)Specialized\Internals\HistArith_Int32.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadOnlyUniqueList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)ReadOnlyUtility.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UniqueList.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UniqueListBase.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)UniqueListEx.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="$(MSBuildThisFileDirectory)Specialized\" />
+  </ItemGroup>
+</Project>
