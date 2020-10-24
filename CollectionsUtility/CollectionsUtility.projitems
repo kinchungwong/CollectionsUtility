@@ -11,6 +11,7 @@
   <ItemGroup>
     <Compile Include="$(MSBuildThisFileDirectory)Mocks\SortedIntListIntersect.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Mocks\SortedIntListUnion.cs" />
+    <Compile Include="$(MSBuildThisFileDirectory)MultiValueDictionary.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Specialized\Histogram.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Specialized\HistogramFactory.cs" />
     <Compile Include="$(MSBuildThisFileDirectory)Specialized\HistogramMethods.cs" />

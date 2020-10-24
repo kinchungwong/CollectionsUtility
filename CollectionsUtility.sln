@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.30611.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CollectionsUtility", "CollectionsUtility\CollectionsUtility.shproj", "{20A532D7-469C-4A41-B0E7-6DBB182D9B7E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsUtility.DotNetStd", "CollectionsUtility.DotNetStd\CollectionsUtility.DotNetStd.csproj", "{1E514EB8-DCFE-456B-8D1F-CF8CDEAB08EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsUtility.DotNetStd", "CollectionsUtility.DotNetStd\CollectionsUtility.DotNetStd.csproj", "{1E514EB8-DCFE-456B-8D1F-CF8CDEAB08EE}"
 EndProject
 Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "CollectionsUtility.Abstract", "CollectionsUtility.Abstract\CollectionsUtility.Abstract.shproj", "{998136E8-60AD-4749-B779-FDB826BC2591}"
 EndProject
@@ -13,10 +13,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 	ProjectSection(SolutionItems) = preProject
 		Readme.md = Readme.md
 		Readme_Histogram.md = Readme_Histogram.md
+		Readme_MultiValueDictionary.md = Readme_MultiValueDictionary.md
 		Readme_UniqueList.md = Readme_UniqueList.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionsUtility.Tests", "CollectionsUtility.Tests\CollectionsUtility.Tests.csproj", "{45903DED-5432-4DAC-97F6-52C6A2E3BB79}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionsUtility.Tests", "CollectionsUtility.Tests\CollectionsUtility.Tests.csproj", "{45903DED-5432-4DAC-97F6-52C6A2E3BB79}"
 EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
